@@ -54,8 +54,7 @@ def LaunchTheSound():
         # Open contest page
         driver.switch_to.new_window('tab')
         driver.get(contest_page)
-
-        emails = ['crazyfisher21@gmail.com', 'isabellaspaletta@yahoo.com']
+        
         # these guys are CRAZY good about making this a huge pita to parse with the driver.
         WaitForKeyword(driver)
 
